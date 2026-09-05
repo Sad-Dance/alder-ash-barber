@@ -106,13 +106,18 @@ button,input,select{font:inherit}
   display:flex;flex-direction:column;
   background:#f7f4ed;transition:.25s ease;
 }
-.service-card:hover{transform:translateY(-6px);box-shadow:0 18px 45px rgba(30,30,20,.08)}
-.service-card.featured{background:var(--olive-dark);color:#fff}
-.service-number{font-family:"Manrope";font-size:13px;color:#8d8f86}
+.service-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 18px 45px rgba(30,30,20,.08);
+  background:var(--olive-dark);
+  color:#fff;
+}
+.service-number{font-family:"Manrope";font-size:13px;color:#8d8f86;transition:.25s ease}
 .service-card h3{font-family:"Manrope";font-size:24px;margin:70px 0 12px}
-.service-card p{line-height:1.6;color:#666a62}
-.service-card.featured p{color:rgba(255,255,255,.68)}
+.service-card p{line-height:1.6;color:#666a62;transition:.25s ease}
 .service-card strong{font-family:"Manrope";font-size:26px;margin-top:auto}
+.service-card:hover .service-number{color:rgba(255,255,255,.65)}
+.service-card:hover p{color:rgba(255,255,255,.72)}
 .concept-note{font-size:12px;color:#85877f;margin:18px 0 0}
 
 .about{display:grid;grid-template-columns:1.1fr .9fr;min-height:650px;background:var(--olive-dark);color:#fff}
