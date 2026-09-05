@@ -121,7 +121,7 @@ button,input,select{font:inherit}
 .concept-note{font-size:12px;color:#85877f;margin:18px 0 0}
 
 .about{display:grid;grid-template-columns:1.1fr .9fr;min-height:650px;background:var(--olive-dark);color:#fff}
-.about-image{background:url("https://images.unsplash.com/photo-1781455793310-8427c96454c7?auto=format&fit=crop&w=2200&q=88") center/cover no-repeat;min-height:520px}
+.about-image{background:url("assets/about-interior.png") center/cover no-repeat;min-height:520px}
 .about-copy{padding:90px clamp(34px,6vw,90px);align-self:center}
 .about-copy h2{font-size:clamp(46px,6vw,76px);margin:0 0 30px}
 .about-copy>p{max-width:600px;color:rgba(255,255,255,.72);line-height:1.75}
