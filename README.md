@@ -4,7 +4,7 @@ Premium barbershop website portfolio concept.
 
 ## Live demo
 
-https://alder-ash-barber.netlify.app/
+(https://alder-ash-barber.evgweb.workers.dev/)
 
 ## Stack
 
