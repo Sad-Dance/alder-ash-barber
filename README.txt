@@ -1,20 +1,64 @@
-ALDER & ASH — Barber Studio
-Concept Project by EVG Web
+# Alder & Ash — Barber Studio — V6
 
-Files:
-- index.html
-- styles.css
-- script.js
-- assets/
+Premium barbershop website portfolio concept.
 
-Open index.html in a browser to preview locally.
+## Live demo
 
-Important:
-This is a fictional portfolio concept. Names, prices, team members,
-address and contact details are demonstration content.
+https://alder-ash-barber.netlify.app/
 
+## Stack
 
-PHOTO QUALITY UPDATE
-The site now uses standalone high-resolution Unsplash images instead of
-cropped screenshots from the original visual mockup. This removes visible
-mockup UI/button artifacts and improves image sharpness.
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+## V6
+
+- updated gallery imagery
+- new Alder & Ash interior photography
+- improved visual consistency across gallery images
+- updated barber team portraits
+- refined image positioning and cropping
+- improved service card hover interactions
+
+## V5
+
+- redesigned gallery section
+- new service-focused photography
+- improved image quality
+- updated barbershop interior visuals
+
+## V4
+
+- new barber team portraits
+- individual portraits for James, Marcus and Leo
+- improved team card composition
+- refined responsive image positioning
+
+## V3
+
+- new premium hero artwork
+- updated Alder & Ash visual direction
+- warmer interior styling
+- improved About section imagery
+
+## V2
+
+- improved photography
+- removed low-quality mockup crops
+- upgraded image resolution
+- refined responsive layout
+
+## V1
+
+- initial Alder & Ash concept
+- responsive landing page
+- services and pricing
+- barber team section
+- gallery
+- booking section
+- location and opening hours
+
+---
+
+Concept project designed and developed by EVG Web.
