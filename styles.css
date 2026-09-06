@@ -130,7 +130,7 @@ button,input,select{font:inherit}
 
 .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .team-card{border:1px solid rgba(255,255,255,.12);background:#171913}
-.team-card img{height:285px;object-fit:cover;filter:saturate(.8) contrast(1.05)}
+.team-card img{height:360px;object-fit:cover;filter:saturate(.8) contrast(1.05)}
 .team-card div{padding:22px}
 .team-card span{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#9ca78a}
 .team-card h3{font-family:"Manrope";font-size:25px;margin:6px 0}
@@ -236,11 +236,12 @@ input,select{width:100%;padding:15px;border:1px solid #d1d1ca;background:#fff;bo
 .hero { background-position: center 35%; }
 .about-image { background-position: center; }
 .team-card img {
-  object-position: center 35%;
+  object-position: center 14%;
   image-rendering: auto;
 }
-.team-card:nth-child(2) img { object-position: center 38%; }
-.team-card:nth-child(3) img { object-position: center 42%; }
+.team-card:nth-child(1) img { object-position: center 13%; }
+.team-card:nth-child(2) img { object-position: center 12%; }
+.team-card:nth-child(3) img { object-position: center 13%; }
 .gallery-grid img {
   image-rendering: auto;
   object-position: center;
@@ -249,4 +250,21 @@ input,select{width:100%;padding:15px;border:1px solid #d1d1ca;background:#fff;bo
 
 @media (max-width: 620px) {
   .hero { background-position: 58% center; }
+}
+
+/* v3 — barber portrait framing */
+.team-card img {
+  height: 430px;
+  object-fit: cover;
+  width: 100%;
+}
+.team-card:nth-child(1) img { object-position: center 8%; }
+.team-card:nth-child(2) img { object-position: center 20%; }
+.team-card:nth-child(3) img { object-position: center 20%; }
+
+@media (max-width: 980px) {
+  .team-card img { height: 280px; }
+}
+@media (max-width: 620px) {
+  .team-card img { height: 360px; }
 }
