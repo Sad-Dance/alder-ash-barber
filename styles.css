@@ -37,7 +37,7 @@ button,input,select{font:inherit}
   background:linear-gradient(to bottom,rgba(10,11,9,.86),rgba(10,11,9,.35),transparent);
   transition:.25s ease;
 }
-.site-header.scrolled{background:rgba(14,16,12,.95);backdrop-filter:blur(12px)}
+.site-header.scrolled{background:rgba(14,16,12,.97)}
 .brand{display:flex;flex-direction:column;letter-spacing:.18em;font-family:"Manrope",sans-serif;font-weight:800}
 .brand span{font-size:17px}
 .brand small{font-size:8px;letter-spacing:.38em;margin-top:3px}
@@ -151,8 +151,7 @@ button,input,select{font:inherit}
   grid-template-columns:1.25fr .9fr 1.05fr .8fr;
   grid-auto-rows:310px;gap:10px
 }
-.gallery-grid img{height:100%;object-fit:cover;filter:saturate(.8);transition:.35s ease}
-.gallery-grid img:hover{filter:saturate(1);transform:scale(.985)}
+.gallery-grid img{height:100%;object-fit:cover}
 
 .booking{position:relative;min-height:380px;display:flex;align-items:center;color:#fff;background:#111}
 .booking-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,20,14,.97),rgba(18,20,14,.77),rgba(18,20,14,.2)),url("https://images.unsplash.com/photo-1761931403671-d020a14928d9?auto=format&fit=crop&w=2200&q=88") center/cover no-repeat}
@@ -279,4 +278,14 @@ input,select{width:100%;padding:15px;border:1px solid #d1d1ca;background:#fff;bo
 }
 @media (max-width: 620px) {
   .team-card img { height: 360px; }
+}
+
+/* v10 — scroll performance */
+.gallery-grid {
+  contain: layout paint;
+}
+.gallery-grid img {
+  display: block;
+  width: 100%;
+  backface-visibility: hidden;
 }

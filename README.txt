@@ -34,3 +34,6 @@ V9 performance update:
 - Gallery images preloaded
 - external Gallery image removed
 - legacy Hero/Gallery JPG/PNG/WebP files removed
+
+
+V10: gallery scroll performance optimization.

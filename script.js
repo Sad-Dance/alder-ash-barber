@@ -42,3 +42,27 @@ bookingForm.addEventListener('submit', e => {
   successMessage.classList.add('show');
   bookingForm.reset();
 });
+
+
+// v10: pre-decode Gallery photos during browser idle time.
+const warmGalleryImages = () => {
+  document.querySelectorAll('.gallery-grid img').forEach((img) => {
+    if (typeof img.decode === 'function') {
+      img.decode().catch(() => {});
+    }
+  });
+};
+
+if ('requestIdleCallback' in window) {
+  window.addEventListener(
+    'load',
+    () => requestIdleCallback(warmGalleryImages, { timeout: 1200 }),
+    { once: true }
+  );
+} else {
+  window.addEventListener(
+    'load',
+    () => setTimeout(warmGalleryImages, 200),
+    { once: true }
+  );
+}
