@@ -1,4 +1,5 @@
-ALDER & ASH — Barber Studio
+ALDER & ASH — Barber Studio — V9
+
 Concept Project by EVG Web
 
 Files:
@@ -25,3 +26,11 @@ V7 PERFORMANCE UPDATE
 - resized oversized images for web use
 - added lazy loading / async decoding for below-the-fold images
 - preloaded the hero image
+
+
+V9 performance update:
+- lighter Hero WebP
+- all Gallery images local WebP
+- Gallery images preloaded
+- external Gallery image removed
+- legacy Hero/Gallery JPG/PNG/WebP files removed
